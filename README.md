@@ -7,7 +7,7 @@ This repository contains code from the Active Analytics [blog](http://www.active
 file of counts from RNA-Seq files. The underlying function is written in C++ using the Rcpp package with an R 
 wrapper function. The function is designed to read files where the first column in the file is the 
 symbol and the rest of the columns contains count data. It gives a performance boost where the read time is reduced
-to a third of the read time of the R-based `read.delim` file.
+to a third of the read time of the R-based `read.delim` function.
 
 # Usage
 
